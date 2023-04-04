@@ -3,33 +3,6 @@ import pandas as pd
 from imblearn.over_sampling import SMOTE
 from sklearn.model_selection import train_test_split
 
-class Data:
-    pass
-
-    def to_dataframe(self):
-        pass
-
-    def to_augmented_dataframe(self):
-        pass
-
-    def join_dataframe(self):
-        pass
-
-    def smote_balance(self):
-        pass
-
-    def split_data(self):
-        pass
-
-    def generate_augmented_data(self):
-        # ngambil dataframe
-        pass
-
-    def show_random_image(self, number):
-        # number: jumlah gambar
-        pass
-
-
 def to_dataframe(data_dir):
     img_class_list = os.listdir(data_dir)
     img_path_list = []
