@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-05T14:18:04.492Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="mpvz7LAFqq66W8a5Azmk" version="21.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-05T14:25:48.628Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="aAq2cWA80YK6VXJfg94a" version="21.1.4" type="github">
   <diagram name="Page-1" id="h0wjUYDSJTZYgeTMK8Ph">
     <mxGraphModel dx="2284" dy="774" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -30,6 +30,54 @@
         </mxCell>
         <mxCell id="FG-5Cz2I1HQeqlKIBNxF-12" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Scaled Image&lt;/font&gt;" style="fontSize=14;spacingLeft=10;spacingRight=10;zwfType=basicShape;rounded=0;strokeWidth=1;strokeColor=#474D66;whiteSpace=wrap;html=1;" vertex="1" parent="FG-5Cz2I1HQeqlKIBNxF-10">
           <mxGeometry x="80" y="170" width="160" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="FG-5Cz2I1HQeqlKIBNxF-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FG-5Cz2I1HQeqlKIBNxF-13" target="FG-5Cz2I1HQeqlKIBNxF-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FG-5Cz2I1HQeqlKIBNxF-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=15;entryPerimeter=0;" edge="1" parent="1" source="FG-5Cz2I1HQeqlKIBNxF-13" target="FG-5Cz2I1HQeqlKIBNxF-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FG-5Cz2I1HQeqlKIBNxF-13" value="Split Dataset&lt;br&gt;(Stratified method)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="650" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FG-5Cz2I1HQeqlKIBNxF-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FG-5Cz2I1HQeqlKIBNxF-4" target="FG-5Cz2I1HQeqlKIBNxF-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FG-5Cz2I1HQeqlKIBNxF-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FG-5Cz2I1HQeqlKIBNxF-18" target="FG-5Cz2I1HQeqlKIBNxF-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FG-5Cz2I1HQeqlKIBNxF-18" value="Test&lt;br&gt;Data" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="760" y="375" width="85" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="FG-5Cz2I1HQeqlKIBNxF-31" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="455" y="80" width="177.5" height="580" as="geometry" />
+        </mxCell>
+        <mxCell id="FG-5Cz2I1HQeqlKIBNxF-15" value="Train&lt;br&gt;Data" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="FG-5Cz2I1HQeqlKIBNxF-31">
+          <mxGeometry x="46.25" width="85" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="FG-5Cz2I1HQeqlKIBNxF-23" value="Train Convolutional Neural Network" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="FG-5Cz2I1HQeqlKIBNxF-31">
+          <mxGeometry y="120" width="177.5" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="FG-5Cz2I1HQeqlKIBNxF-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="FG-5Cz2I1HQeqlKIBNxF-31" source="FG-5Cz2I1HQeqlKIBNxF-15" target="FG-5Cz2I1HQeqlKIBNxF-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FG-5Cz2I1HQeqlKIBNxF-25" value="Evaluation" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="FG-5Cz2I1HQeqlKIBNxF-31">
+          <mxGeometry x="28.75" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FG-5Cz2I1HQeqlKIBNxF-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="FG-5Cz2I1HQeqlKIBNxF-31" source="FG-5Cz2I1HQeqlKIBNxF-23" target="FG-5Cz2I1HQeqlKIBNxF-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FG-5Cz2I1HQeqlKIBNxF-27" value="Prediction&lt;br&gt;Result" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=0;" vertex="1" parent="FG-5Cz2I1HQeqlKIBNxF-31">
+          <mxGeometry x="28.75" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FG-5Cz2I1HQeqlKIBNxF-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="FG-5Cz2I1HQeqlKIBNxF-31" source="FG-5Cz2I1HQeqlKIBNxF-25" target="FG-5Cz2I1HQeqlKIBNxF-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FG-5Cz2I1HQeqlKIBNxF-29" value="Stop" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="FG-5Cz2I1HQeqlKIBNxF-31">
+          <mxGeometry x="28.75" y="500" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="FG-5Cz2I1HQeqlKIBNxF-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="FG-5Cz2I1HQeqlKIBNxF-31" source="FG-5Cz2I1HQeqlKIBNxF-27" target="FG-5Cz2I1HQeqlKIBNxF-29">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
