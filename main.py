@@ -30,6 +30,10 @@ def generate_augmented_data(dir_path: str):
     pass
 
 @app.command()
+def peekup_data_augmented():
+    pass
+
+@app.command()
 def visualize_model():
     pass
 
