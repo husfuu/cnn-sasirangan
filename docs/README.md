@@ -1,4 +1,4 @@
-![image](https://github.com/husfuu/cnn-sasirangan/assets/70875733/92db1239-843e-416f-8a1b-277a7ebf57bd)
+![image](https://github.com/husfuu/cnn-sasirangan/assets/70875733/eaf99805-7662-46e9-9052-b6b300696594)
 
 
 # Proses perhitungan output shape
@@ -42,5 +42,5 @@ Proses output shape dari setiap layer dalam model tersebut.
 - input dari flaten layer: 57600
 - jumlah unit pada Dense Layer (output): 5
 - parameter bobot = input * unit output + bias
-- parameter bobot = 57600 × 5 + 5 = 288000
+- parameter bobot = 57600 × 5 + 5 = 288005
 
